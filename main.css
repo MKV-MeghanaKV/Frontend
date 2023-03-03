@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@400;500&family=Rowdies:wght@300&display=swap');
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    width:100%;
+    height: 430px;
+    background: #6bafe3;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h2{
+    font-family: Rowdies;
+}
+
+
+
+.content1{
+    padding-left:30px ;
+    padding-right: 30px;
+    font-size: 20px;
+    margin:0;
+}
+
+.middle{
+    padding-left: 350px;
+    padding-right: 350px;
+    font-family: Rowdies;
+    letter-spacing:1.5px;
+}
+
+.logo{
+    position:fixed;
+    float:left;
+    margin-top: 40px;
+    margin-left: 120px;
+    color:rgb(247, 245, 245);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu{
+    height:120px;
+}
+
+.nav{
+    position:fixed;
+    width:100%;
+
+}
+
+nav ul{
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+.navbar{
+    height:120px;
+}
+.navbar.black{
+    position:fixed;
+    background:#ffff;
+    width:100%;
+    height:120px;
+    
+
+}
+nav ul li{
+    display:inline-block;
+    padding:20px;
+    margin-top: 25px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing:2px;
+    font-weight: bold;
+}
+
+.console-container {
+ 
+    font-family:sans-serif;
+    font-size:4em;
+    text-align:center;
+    height:80px;
+    width:600px;
+    display:block;
+    position:relative;
+    color:white;
+    top:100px;
+    bottom:0;
+    left:0;
+    right:80px;
+    margin:auto;
+  }
+  .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+div .block{
+
+   display:none;
+   transition:20s;
+}
+
+.white{
+    color:black;
+
+}
+
+.white1 ul li a{
+    color:black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  min-height: 100vh;
+  width:80%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 3rem;
+  margin: 2rem 0rem;
+}
+
+.faq h3:hover ~ p {
+  display: block;
+}
+.faq p {
+  display: none;
+}
+.faq h3:hover .faq p {
+  display: block;
+  
+}
+
+p{
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.methods{
+    padding-left: 350px;
+    padding-right: 350px;
+    background-color: rgb(255, 244, 226);
+}
